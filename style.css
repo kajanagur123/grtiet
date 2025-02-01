@@ -1,0 +1,382 @@
+.navs{
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+padding: 10px;
+margin: 30px;
+margin: 10px;
+height: 250px;
+font-size: 17px;
+background-color: rgb(14, 1, 39);
+}
+.abouts ul{
+   
+
+    color: black;
+
+}
+.content-1 img{
+    width: 441px;
+    height: 237px;
+}
+.content-1,img{
+    width: fit-content;
+    height: auto;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 5px solid black;
+}
+.abouts li,a{
+    color: black ;
+}
+.abouts a:hover .navs{
+    display: block;
+
+}
+
+.abouts li{
+    color: grey;
+    border-bottom: 2px solid gray;
+
+   
+}
+
+.navs li:hover .abouts{
+    color:black !important;
+    background-color: rgb(34, 157, 229);
+    position: absolute;
+}
+.navs a:hover{
+    color: orangered;
+}
+.navs li{
+    list-style: none;
+}
+.navs a{
+    text-decoration: none;
+    font-size:20px;
+    color: white ;
+    margin: 20px;
+}
+.navs li:hover .abouts
+{
+
+    display: block;
+}
+.abouts{
+    display: none;
+}
+
+.image-1{
+    text-align: center;
+    align-content: center;
+    background-image: url(Second.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.event{
+    text-align: center;
+    background-color: #b3aeae;
+    height: 250px;
+    width:100%;
+    padding: 10px;
+    
+
+}
+.event h2{
+    font-size: 50px;
+    text-transform:uppercase;
+    padding: 50px;
+
+}
+span{
+    border-bottom: 2px solid rgb(111, 111, 245);
+}
+.body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;  /* White background for the video container */
+    padding: 20px;
+    border-radius: 10px;  /* Optional for rounded corners */
+}
+
+video {
+    max-width: 100%;  /* Ensures video scales properly */
+    height: 400px;  /* Maintains aspect ratio */
+}
+.iv{
+    width: 30%;
+    box-shadow: 10px 10px 10px rgb(194, 188, 188);
+    box-sizing: border-box;
+    border: 3px solid black;
+    
+
+}
+.iv{
+    transition: 0.3s;
+    
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+}
+.iv:hover{
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+    transform: scale(1.2);
+}
+.ivs{
+    width: 100%;
+ display: flex;
+    height: 550px;
+    
+    justify-content: space-around;
+    
+    
+   
+
+}
+.about li{
+    list-style: none;
+    
+    
+}
+.about-item{
+    display: flex;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    
+}
+.about a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    
+}
+.about a:hover{
+    color:  rgb(35, 171, 230);;
+}
+.about a:hover{
+    border-bottom: 5px solid rgb(35, 171, 230);
+}
+.about{
+  margin-top: 200px;
+  margin-left: 20px;
+  
+
+}
+.con{
+    background-color: #eee;
+}
+#academics{
+
+    margin: 20px;
+    display: flex;
+}
+#academics img{
+    width: 440px;
+    height: 220px;
+
+}
+#admission img{
+    width: 440px;
+    height: 220px;
+}
+#admission{
+    margin: 20px;
+    display: flex;
+}
+#about-1{
+    margin: 20px;
+    display: flex;
+    
+}
+.mains{
+    background-color: #eee;
+}
+
+#grtiet img{
+    width: 440px;
+    height: 220px;
+}
+#grtiet{
+    margin: 20px;
+    display: flex;
+}
+.button-btn{
+text-align: center;
+align-self: center;
+padding-left: 30px;
+
+
+
+    
+}
+
+
+button:hover{
+    background-color: rgb(35, 171, 230);
+
+}
+.btn:hover{
+    background-color: rgb(35, 171, 230);
+}
+.content{
+    margin: 10px;
+}
+@media screen and (max-width:400px){
+    .ivs{
+        display: block;
+        overflow: auto;
+    }
+}
+.iv img{
+    width:100%;
+    height: auto;
+    background-color: #eee;
+  
+}
+.date a{
+    text-decoration: none;
+color: #b3aeae;
+background-color: #eee;
+
+
+}
+.date{
+    background-color: #eee;
+    width: fit-content;
+    border: solid 2px black;
+    margin: 30px;
+}
+.main img{
+    width: 440px;
+    height: 220px;
+}
+.section{
+    text-align: center;
+}
+.college{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.icon{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.edu{
+    
+    padding: 20px;
+}
+.conduct{
+    
+    padding: 20px;
+    margin: 20px;
+}
+.dollor{
+
+    padding: 20px;
+    margin: 20px;
+}
+.graph{
+
+    padding: 20px;
+    margin: 20px;
+}
+.star{
+    
+    padding: 20px;
+    margin: 20px;
+}
+.college ,h4,p{
+
+    font-size: large;
+}
+.recruiter{
+    text-align: center;
+
+}
+.recruiter h4{
+    font-size: 40px;
+}
+
+   
+.recruiter{
+    
+background-color: #dbdbdb;
+width: 100%;
+height: 350px;
+
+}
+.img-0{
+    padding: 10px;
+    margin: 10px;
+}
+.img-1{
+    padding: 10px;
+    margin: 10px;
+}
+.college{
+    display: grid;
+    grid-row: auto;
+}
+.img-2{
+    padding: 10px;
+    margin: 10px;
+}
+.address{
+    display: flex;
+
+    justify-content: space-evenly;
+    left: 0;
+    color: white;
+    background-color: rgb(56, 54, 54);
+    margin-left:0px;
+}
+
+.cs{
+    
+flex-wrap: wrap;
+left: 0px;
+display: block;
+
+}
+.t{
+    color: white;
+    background-color: rgb(56, 54, 54); 
+}
+hr{
+    border-bottom: 2px solid white;
+}
+.img-3{
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-4{
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-5{
+    padding: 10px;
+    margin: 10px;
+}
